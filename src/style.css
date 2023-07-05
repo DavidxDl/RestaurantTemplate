@@ -1,0 +1,98 @@
+html, body{
+    margin: 0;
+}
+
+#content{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    background-color: #c0c0e7;
+
+}
+.main_image{
+    max-width: 750px;
+    justify-self: center;
+}
+.main{
+    margin-top: 100px;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main_title{
+    font-size: 40px;
+    font-weight: 700;
+    
+    color: rgb(194, 53, 95);
+}
+.main_info{
+    font-size: 20px;
+    
+}
+.REVIEWS_TEXT, .timeTEXT{
+    font-size: 30px;
+    border-bottom: 2px solid rgb(161, 72, 72);
+}
+.horarios{
+    font-size: 30px;
+    color: #1bc5d7;
+    background: url(./banner.jpg) repeat center;
+    background-size: 200px;
+    
+}
+th, td{
+    border: 2px solid white;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    min-height: 200px;
+    background: url(./banner.jpg)  repeat center;
+    background-size: 200px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px black;
+
+    
+    
+}
+.title-header{
+    align-self: end;
+    justify-self: center;
+    margin: 0;
+    font-size: 40px;
+    color: rgb(245, 245, 245);
+}
+.nav_btns{
+    display: flex;
+    align-self: end;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    
+}
+
+.tab1, .tab2, .tab3{
+    font-size: 30px;
+    color: rgb(247, 243, 41);
+    background-color: rgba(0, 0, 0, 0.356);
+    border: 1px solid purple;
+    box-shadow: 2px 2px 3px black;
+    transition: transform 0.5s;
+}
+.tab1:hover, .tab2:hover, .tab3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:468px){
+    .nav_btns{
+        color: white;
+        gap:10px;
+    }
+}

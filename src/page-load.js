@@ -1,5 +1,6 @@
 import tab1Func from './tab1'
 import tab2Func from './tab2'
+import tab3Func from './tab3'
 export function page_load (){
  const content = document.getElementById('content')
  const main_content = document.createElement('div')
@@ -39,4 +40,5 @@ export function page_load (){
  
  tab1.addEventListener('click', tab1Func)
  tab2.addEventListener('click', tab2Func)
+ tab3.addEventListener('click', tab3Func)
 }

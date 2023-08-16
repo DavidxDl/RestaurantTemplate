@@ -8,6 +8,28 @@ html, body{
     background-color: #c0c0e7;
 
 }
+.Menu{
+    font-size: 30px;
+    color: #ffffff;
+    background: url(./banner.jpg) repeat center;
+    background-size: 200px;
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding:10px;
+}
+.Menu td{
+    background-color: #0000006e;
+}
+.headingRow th{
+    font-size: 35px;
+    color: white;
+    padding:10px;
+    background-color: #0000006e;
+
+}
+.menuTEXT{
+    font-size: 40px;
+}
 .main_image{
     max-width: 750px;
     justify-self: center;
@@ -19,6 +41,7 @@ html, body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #005573;
 }
 .main_title{
     font-size: 40px;
@@ -30,6 +53,9 @@ html, body{
     font-size: 20px;
     
 }
+i{
+    font-size: 20px;
+}
 .REVIEWS_TEXT, .timeTEXT{
     font-size: 30px;
     border-bottom: 2px solid rgb(161, 72, 72);
@@ -39,10 +65,14 @@ html, body{
     color: #1bc5d7;
     background: url(./banner.jpg) repeat center;
     background-size: 200px;
+    border: 2px solid white;
+    border-collapse: collapse;
     
 }
-th, td{
+.horarios th, td{
     border: 2px solid white;
+    text-shadow: 1px 1px black;
+    background-color: #0000003d;
 }
 
 .header{
@@ -50,6 +80,7 @@ th, td{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     width: 100%;
+
     min-height: 200px;
     background: url(./banner.jpg)  repeat center;
     background-size: 200px;
@@ -65,7 +96,8 @@ th, td{
     justify-self: center;
     margin: 0;
     font-size: 40px;
-    color: rgb(245, 245, 245);
+    color: rgb(0 176 185);
+    text-shadow: 1px 1px black;
 }
 .nav_btns{
     display: flex;
@@ -90,9 +122,12 @@ th, td{
     cursor: pointer;
 }
 
-@media only screen and (max-width:468px){
+@media only screen and (max-width:760px){
     .nav_btns{
         color: white;
         gap:10px;
+    }
+    .main_image{
+        max-width: 386px;
     }
 }
